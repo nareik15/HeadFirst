@@ -34,6 +34,14 @@ public class GameWorld{
 				randY = r.nextInt(7);
 			}
 			
+			// set this coordinate as first of this ship
+			worldMap[randX][randY] = i;
+			
+			//choose vertical or horizontal orientation
+			if (r.nextInt(1) == 0){
+				// this is becoming seemingly needlessly complicated. going to refer to book as further planning practice is needed.
+			}
+			
 			
 			
 			
