@@ -1,0 +1,15 @@
+Planning Lessons: Chapter 4 (improvements to the solution I was intending)
+
+-Build a simplified version of main program first either to scale up later or use knowledge of small program to plan and build a larger one.
+-in keeping with simple version, perhaps limit "futureproofing" (trying to program simpmle version with maximal extensibility in mind. Build small and refactor where necessary(
+	-(of course, no magic numbers...)
+
+- game state need not be fully realised in code. 
+	-rather than represent 7x7 battleship grid in a 2d array, 
+	-instead store battleship locations and use closed-world assumption(i.e. all non-defined locations assumed empty)
+	-Ensuring that inputs are valid by filtering inputs rather that checking for 2d array lookup errors.
+	
+	- much more memory efficient.
+	-(SIDENOTE: the problem of populating a 7x7 grid with ships randomly mays still be interesting to solve using "myBattleship" method)
+	
+
